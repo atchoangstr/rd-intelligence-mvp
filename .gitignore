@@ -13,6 +13,7 @@ dist/
 .venv/
 venv/
 env/
+.venv-*/
 
 # Secrets and local configuration
 .env
@@ -21,8 +22,20 @@ env/
 .streamlit/secrets.toml
 secrets/
 credentials/
+backups/
+credentials.json
+credentials.yaml
+credentials.yml
+secrets.json
+secrets.yaml
+secrets.yml
+secrets.toml
+.aws/
+.ssh/
 *.pem
 *.key
+*.p12
+*.pfx
 
 # Generated databases and journals
 *.db
